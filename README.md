@@ -1,6 +1,6 @@
 # Project: Landing Page
 
-For this project, an entire web page was created based on a design provided. comes in the form of 2 images: 
+For this project, an entire web page was created based on a design provided. The design is in the form of two images: 
 + [one](./design/01.png) is an image of the complete website, 
 + and [one](./design/02.png) has some details about some of the fonts and colors we’ve used.
 

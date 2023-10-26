@@ -22,6 +22,7 @@ body {
     justify-content: space-between;
     /* align-items: stretch; */
     margin: 0;
+    gap: 48px;
 }
 
 a {
@@ -46,7 +47,7 @@ button {
     display: flex;
     flex-direction: column;
     /* flex: auto; */
-    flex-basis: 256px;
+    /* flex-basis: 256px; */
 }
 
 .nav-header {
@@ -98,7 +99,7 @@ button {
 
 .content-header {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     padding: 80px 0;
     gap: 40px;
     /* margin-bottom: 128px; */
@@ -123,7 +124,7 @@ button {
 
 /* Info Section */
 .info {
-    padding: 36px 256px 96px;
+    /* padding: 36px 256px 96px; */
     /* margin-bottom: 64px; */
     display: flex;
     flex-direction: column;
@@ -131,7 +132,7 @@ button {
     gap: 48px;
     /* flex: auto; */
     /* margin-top: 32px; */
-    flex-basis: 256px;
+    /* flex-basis: 256px; */
 }
 
 .info-header {
@@ -179,7 +180,7 @@ button {
     align-items: center;
     gap: 16px;
     /* flex: auto; */
-    flex-basis: 256px;
+    /* flex-basis: 256px; */
 }
 
 .iquote-txt-big {
@@ -194,6 +195,29 @@ button {
     font-weight: bold;
     align-self: flex-end;
     padding-right: 56px;
+}
+
+/* Call-to-Action Section */
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 512px;
+    padding: 36px 96px;
+}
+
+.cta-txt-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cta-button {
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
 }
 
 /* Footer Section */

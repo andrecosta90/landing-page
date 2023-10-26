@@ -109,7 +109,29 @@ button {
     align-items: center;
     background-color: grey;
 }
+
 .placeholder-img {
     color: white;
     /* text-align: center; */
+}
+
+.iquote {
+    background-color: #e5e7eb;
+    padding: 128px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.iquote-txt-big {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    /* flex:1; */
+}
+
+.iquote-txt-author {
+    font-weight: bold;
+    align-self: flex-end;
 }

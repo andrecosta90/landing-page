@@ -10,7 +10,5 @@ For this project, an entire web page was created from scratch based on a design 
 + CSS
 + Flexbox
 
-## Free-to-use image sites
-+ [Pexels](https://www.pexels.com/)
-+ [Pixabay](https://pixabay.com/)
-+ [Unsplash](https://unsplash.com/)
+## Links
+- [Try it right now!](https://andrecosta90.github.io/odin-landing-page)

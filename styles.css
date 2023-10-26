@@ -4,7 +4,9 @@
 
 html {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 *,
@@ -15,6 +17,8 @@ html {
 
 body {
     min-height: 100vh;
+
+    max-height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,6 +36,7 @@ button {
     padding: 6px 32px;
 }
 
+/* Header/Hero Section */
 .header,
 .footer {
     background-color: #1f2937;
@@ -115,6 +120,54 @@ button {
     /* text-align: center; */
 }
 
+/* Info Section */
+.info {
+    padding: 36px 256px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    /* margin-top: 32px; */
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    gap: 64px;
+    /* flex: 1; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* flex: 1; */
+    gap: 6px;
+    
+}
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+.card-txt {
+    width: 150px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+/* Quote Section */
 .iquote {
     background-color: #e5e7eb;
     padding: 128px 300px;
@@ -134,4 +187,7 @@ button {
 .iquote-txt-author {
     font-weight: bold;
     align-self: flex-end;
+    padding-right: 56px;
 }
+
+/* Footer Section */

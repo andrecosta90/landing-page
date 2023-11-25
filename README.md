@@ -10,4 +10,4 @@ For this project, an entire web page was created from scratch based on a design 
 + CSS (*+Flexbox*)
 
 ## Links
-- [Try it right now!](https://andrecosta90.github.io/odin-landing-page)
+- [Try it right now!](https://andrecosta90.github.io/landing-page)
